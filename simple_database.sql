@@ -5,7 +5,7 @@ USE `uwi`;
 -- Host: 127.0.0.1    Database: uwi
 -- ------------------------------------------------------
 -- Server version	8.0.45
--- ID- 620154865
+-- 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -191,4 +191,5 @@ WHERE s.StudentID IN (
     )
 )
 ORDER BY s.Name, c.CourseName;
+
 
